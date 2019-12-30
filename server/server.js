@@ -24,6 +24,6 @@ app.use(express.static(path.resolve(__dirname,'./static')));
 app.use(bodyParser.json())
 app.use('/todolist', todolistRouter)
 
-app.listen(9093, function(){
+app.listen(80, function(){
     console.log('server start at port 9093')
 })
